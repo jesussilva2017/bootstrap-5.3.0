@@ -3,16 +3,234 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Pagina demo</title>
+    
+    <link href="css/style.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
   </head>
   <body>
-    
-    <div class="container">
-        <h1 class="text-center">FRAMEWORK DE CSS - BOOTSTRAP </h1>
-            <p class="justify-content-between">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iure facere enim. Est quo nulla, illo porro pariatur, perspiciatis sit similique rem consequatur odit sed, dolorem dicta iste numquam unde nemo. Ea tenetur reiciendis nobis fugit quam nihil harum possimus assumenda officiis sunt. Omnis, perferendis dicta nesciunt quisquam, atque voluptatem cupiditate natus suscipit voluptatibus blanditiis ratione, quibusdam perspiciatis non fuga ea incidunt. Veritatis dolores adipisci accusamus pariatur id magni magnam eaque quaerat atque suscipit iste facilis, quas maiores ullam dicta qui in voluptas! Cumque, quam. Neque quas libero sint, maiores laudantium esse molestiae natus quisquam quae reiciendis iste possimus debitis minus at laboriosam consectetur blanditiis architecto harum? Quidem repellendus laborum delectus vitae odio temporibus eos reiciendis eveniet, velit atque aspernatur excepturi ducimus, voluptatem similique, at quia mollitia explicabo assumenda fugit! Quam expedita perferendis repellendus autem, ea placeat enim reiciendis rem aperiam sed dignissimos minima. Commodi, exercitationem est nihil illo architecto aspernatur voluptatum voluptates perspiciatis suscipit eius vitae quasi, nesciunt sed provident at dolore, blanditiis vero tenetur nam odio in facilis ipsam! Aliquam dolorem aspernatur id vel dolore exercitationem a recusandae. Minima recusandae hic pariatur molestias amet omnis alias nulla sit, voluptates natus. Aliquam tempore sed, eveniet hic cumque culpa a.</p>
-   
+        <!--Inicio de Menu-->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+        <!--Fin de Menu-->
+
+        <!--Inicio de carousel-->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/banner1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!--Fin de carousel-->
+            <br>
+        <!--inicio de contenido-->
+
+        <div class="row">
+
+            <div class="col-md-5 col-4">
+                <hr>
+            </div>
+
+            <div class="col-md-2 col-4">
+                <h2 class="text-center">CELULARES</h2>
+            </div>
+
+            <div class="col-md-5 col-4">
+                <hr>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-3"> </div>
+
+            <div class="col-md-2 col-4 text-center">
+                    <img src="img/a1.jpg" class="img-thumbnail rounded-circle" alt="...">
+                     <h6>Celulares baratos</h6>
+            </div>
+
+            <div class="col-md-2 col-4 text-center">
+                <img src="img/a2.jpg" class="img-thumbnail rounded-circle" alt="...">
+                <h6>Celulares baratos</h6>
+            </div>
+
+            <div class="col-md-2 col-4 text-center">
+                <img src="img/a3.jpg" class="img-thumbnail rounded-circle" alt="...">
+                <h6>Celulares baratos</h6>
+            </div>
+            <div class="col-md-3">  </div>
+        </div>
+
+          <!--fin de contenido-->
+            <br>
+    <!--inicio de contenido 2-->
+
+    <div class="row">
+
+        <div class="col-md-4 col-4">
+            <hr>
+        </div>
+
+        <div class="col-md-4 col-4">
+            <h2 class="text-center">LO MAS VENDIDO</h2>
+        </div>
+
+        <div class="col-md-4 col-4">
+            <hr>
+        </div>
+
     </div>
+
+    <br>
+
+            <div class="row">
+
+                <div class="col-md-2 col-6 text-center">
+
+                    <div class="card">
+                        <img src="img/c1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+
+                </div>
+
+                <div class="col-md-2 col-6 text-center">
+
+                    <div class="card" >
+                        <img src="img/c2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+
+                </div>
+
+                <div class="col-md-2 col-6 text-center">
+
+                    <div class="card" >
+                        <img src="img/c3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+
+                </div>
+
+                <div class="col-md-2 col-6 text-center">
+
+                    <div class="card" >
+                        <img src="img/c4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+
+                </div>
+
+                <div class="col-md-2 col-6 text-center">
+
+                    <div class="card" >
+                        <img src="img/c5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+
+                </div>
+
+
+                <div class="col-md-2 col-6 text-center">
+
+                    <div class="card" >
+                        <img src="img/c6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+
+                </div>
+
+
+
+            </div>
+
+
+    <!--fin de contenido 2-->
+
+  
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
   </body>
